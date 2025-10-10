@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a79101ffdd56079eea387b40a14461c0",
+    "packages": [
+        {
+            "name": "norgul/xmpp-php",
+            "version": "v2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Norgul/xmpp-php.git",
+                "reference": "f9d24ca167599e9040f5cc3f500f5ec90d28faf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Norgul/xmpp-php/zipball/f9d24ca167599e9040f5cc3f500f5ec90d28faf3",
+                "reference": "f9d24ca167599e9040f5cc3f500f5ec90d28faf3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "3.0.x-dev",
+                "phpmd/phpmd": "2.6.0",
+                "phpunit/phpunit": "6.*",
+                "squizlabs/php_codesniffer": "3.4.2"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Norgul\\Xmpp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marko Dupor",
+                    "email": "marko.dupor@gmail.com"
+                }
+            ],
+            "description": "PHP library for XMPP.",
+            "keywords": [
+                "jabber",
+                "library",
+                "php",
+                "xmpp"
+            ],
+            "support": {
+                "issues": "https://github.com/Norgul/xmpp-php/issues",
+                "source": "https://github.com/Norgul/xmpp-php/tree/v2.2.3"
+            },
+            "time": "2019-10-14T18:36:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

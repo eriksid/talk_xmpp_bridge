@@ -1,0 +1,21 @@
+# Composer dependencies
+/vendor/
+
+# Node dependencies (in case JS is added later)
+/node_modules/
+
+# Build artifacts
+/build/
+
+# Log files
+*.log
+
+# IDE and editor configuration
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db

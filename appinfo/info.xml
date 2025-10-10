@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info>
+    <id>talk_xmpp_bridge</id>
+    <name>Talk XMPP Bridge</name>
+    <summary>A bridge between Nextcloud Talk and the XMPP protocol.</summary>
+    <description><![CDATA[
+This app bridges Nextcloud Talk conversations with XMPP.
+
+It allows for two-way communication between:
+- 1-on-1 Talk conversations and XMPP direct messages.
+- Talk group conversations and XMPP Multi-User Chats (MUCs).
+    ]]></description>
+    <version>0.1.0</version>
+    <author>Erik Sidnei Corrêa</author>
+    <namespace>TalkXMPPBridge</namespace>
+    <category>social</category>
+    <dependencies>
+        <nextcloud min-version="25" max-version="28" />
+        <dependency>spreed</dependency>
+    </dependencies>
+    <settings>
+        <admin>OCA\TalkXMPPBridge\Settings\AdminSettings</admin>
+    </settings>
+</info>
