@@ -1,0 +1,13 @@
+{
+    "name": "talk_xmpp_bridge",
+    "version": "1.0.0",
+    "description": "A bridge between Nextcloud Talk and the XMPP protocol.",
+    "scripts": {
+        "lint": "eslint --ext .js,.vue .",
+        "lint:fix": "eslint --ext .js,.vue . --fix"
+    },
+    "devDependencies": {
+        "@nextcloud/eslint-config": "^8.2.0",
+        "eslint": "^8.0.0"
+    }
+}
