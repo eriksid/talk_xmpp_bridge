@@ -114,6 +114,15 @@ class XMPPService {
             return;
         }
 
+        // In group chats, check if the message is from the bot itself.
+        if ($message->getType() === Message::TYPE_GROUPCHAT) {
+            $botJidNode = explode('@', $botJid)[0];
+            $senderNickname = explode('/', $from)[1] ?? null;
+            if ($senderNickname === $botJidNode) {
+                return;
+            }
+        }
+
         $this->logger->info('Received XMPP message from ' . $from, ['app' => 'talk_xmpp_bridge']);
         $botUserId = $this->config->getAppValue('talk_xmpp_bridge', 'bot_user_id');
         $conversation = null;
